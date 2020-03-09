@@ -1,0 +1,7 @@
+{
+  "name": "haviva",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title size="large">
+      <ion-img src="assets/icon/LOGO3.png"></ion-img>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,40 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large"><ion-img src="assets/icon/LOGO3.png"></ion-img></ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button class="square" size="large" onclick="window.open('https://mate.codecircle.co.il/', '_system');" ><span class="wrap-text">טופס פעילות ייחודית</span></ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="square" size="large" onclick="window.open('https://mate.codecircle.co.il/', '_system');"><span class="wrap-text">טופס תקלות</span></ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="square" size="large" onclick="window.open('https://mate.codecircle.co.il/', '_system');">נוכחות<i class="gg-check-r"></i></ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="square" size="large" onclick="window.open('https://mate.codecircle.co.il/', '_system');">לוז שבועי</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="square" size="large" onclick="window.open('https://mate.codecircle.co.il/', '_system');">לוז שנתי<i class="gg-calendar"></i></ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col>
+        <ion-button class="content-center" fill="clear" size="medium" onclick="window.open('https://mate.codecircle.co.il/', '_system');"><ion-img src="assets/facebook.png" class="social"></ion-img></ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="content-center" fill="clear" size="medium" onclick="window.open('https://mate.codecircle.co.il/', '_system');" ><ion-img src="assets/Instagram.webp" class="social"></ion-img></ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

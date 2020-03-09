@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  // const { Browser } = Plugins;
 
   constructor() {}
+
+  // await Browser.open({ url: 'http://capacitor.ionicframework.com/' });
 
 }
